@@ -1,0 +1,15 @@
+<View>
+    <Labels name="label" toName="text">
+        <Label value="Major" background="red" />
+        <Label value="Minor" background="darkorange" />
+        <Label value="Omission" background="green" />
+    </Labels>
+
+    <View style="display: grid; grid-template: auto/1fr 1fr; column-gap: 1em">
+        <Header value="Source sentences" />
+        <Header value="Translated sentences" />
+
+        <Text name="source" value="$source" />
+        <Text name="text" value="$text" />
+    </View>
+</View>
